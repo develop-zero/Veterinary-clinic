@@ -1,0 +1,64 @@
+.articles {
+	padding: 265px 0 215px;
+}
+.articles__container {
+	justify-content: center;
+	align-items: center;
+}
+.articles__title {
+	@include list-global;
+	margin: 0 450px 80px;
+	font-weight: 700;
+	font-size: 48px;
+}
+.articles__box {
+	display: flex;
+	justify-content: space-between;
+}
+.parrt__a {
+	width: 305px;
+	height: 435px;
+	border: 1px solid #f3f3f3;
+}
+.parrt__b {
+	width: 640px;
+	height: 435px;
+	display: flex;
+	border: 1px solid #f3f3f3;
+}
+.box__part-active {
+	padding: 33px 30px;
+	background-color: #fff;
+}
+.box__part {
+	margin: 20px 30px 39px;
+}
+.box__span {
+	padding-left: 172px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.box__part-title {
+	@include list-global;
+	width: 193px;
+	margin-top: 20px;
+	margin-bottom: 9px;
+	font-weight: bold;
+	font-size: 22px;
+}
+.box__title {
+	@include list-global;
+	width: 193px;
+	margin-bottom: 9px;
+	font-weight: bold;
+	font-size: 22px;
+}
+.box__text {
+	@include list-global;
+	margin-bottom: 38px;
+	font-weight: 400;
+	font-size: 16px;
+}
+.box__icon-link {
+	@include anchor;
+}

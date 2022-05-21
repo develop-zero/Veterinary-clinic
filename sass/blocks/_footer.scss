@@ -1,0 +1,17 @@
+.footer {
+	background-color: #ebebeb;
+}
+.footer__container {
+	display: flex;
+	justify-content: space-between;
+	padding: 62px 0;
+	align-items: center;
+}
+.footer__item {
+	list-style-type: none;
+}
+.footer__link {
+	@include anchor;
+	display: block;
+	margin: 7px 0;
+}
